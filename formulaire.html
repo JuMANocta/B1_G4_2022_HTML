@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mon Formulaire</title>
+</head>
+<body>
+    <h1>Mon Formulaire</h1>
+    <p>Premier formulaire afin de comprendre son utilisation.</p>
+    <form action="" method="">
+        <table>
+            <tr>
+                <td>Prenom :</td>
+                <td><input class="info" type="text" name="prenom" width="75"></td>
+            </tr>
+            <tr>
+                <td>Nom :</td>
+                <td><input class="info" type="text" name="nom" width="75"></td>
+            </tr>
+            <tr>
+                <td>Adresse :</td>
+                <td><input class="info" type="text" name="adresse" width="75"></td>
+            </tr>
+            <tr>
+                <td>Code postal:</td>
+                <td><input class="info" type="number" name="codepostal" width="75"></td>
+            </tr>
+            <tr>
+                <td>Ville :</td>
+                <td><input class="info" type="text" name="ville" width="75"></td>
+            </tr>
+            <tr>
+                <td>Numéro de tel:</td>
+                <td><input class="info" type="tel" name="numtel" width="75"></td>
+            </tr>
+            <tr>
+                <td>eMail :</td>
+                <td><input class="info" type="email" name="mail" width="75"></td>
+            </tr>
+            <tr>
+                <td>Sexe :</td>
+                <td>
+                    <input type="radio" name="sexe" value="F">Femme<br>
+                    <input type="radio" name="sexe" value="H">Homme<br>
+                    <input type="radio" name="sexe" value="A">Autre<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Sports :</td>
+                <td>
+                    <select name="sport">
+                        <option value="nosport" selected>Pas d'Sport</option>
+                        <option value="Volley">Volley</option>
+                        <option value="Foot">Foot</option>
+                        <option value="Curling">Curling</option>
+                        <option value="Course">Course</option>
+                        <option value="Piscine">Piscine</option>
+                        <option value="Tennis">Tennis</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Transport :</td>
+                <td>
+                    <input type="checkbox" name="transport" value="Voiture">Voiture<br>
+                    <input type="checkbox" name="transport" value="Velo">Velo<br>
+                    <input type="checkbox" name="transport" value="Commun">Commun<br>
+                    <input type="checkbox" name="transport" value="Trotinette">Trotinette<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Groupe Sangin :</td>
+                <td>
+                    <input type="radio" name="sangin" value="A+">A+
+                    <input type="radio" name="sangin" value="A-">A-
+                    <input type="radio" name="sangin" value="B+">B+
+                    <input type="radio" name="sangin" value="B-">B-
+                    <input type="radio" name="sangin" value="O+">O+
+                    <input type="radio" name="sangin" value="O-">O-
+                </td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input class="info" type="password" name="pass" width="75"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Envoyer" class="bouton"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

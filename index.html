@@ -1,0 +1,156 @@
+<!--? le commentaire ce place ici -->
+<!DOCTYPE html> <!-- définit le type de document et ça version -->
+<html lang="fr" dir="auto"> <!-- contient le document complet -->
+<head> <!-- la tête de notre HTML -->
+    <meta charset="UTF-8"> <!-- les métadonnées du docuemnt -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="notre premère page">
+    <meta name="author" content="moimoi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Html, HTML, html, Meta Tags, Metadata">
+    <!-- <meta http-equiv="refresh" content="5 ; url = https://www.google.fr"> -->
+    <link rel="icon" href="favicon.ico"/> <!-- l'icone du document -->
+    <title>Notre test HTML</title> <!-- mentionne le titre du document -->
+</head>
+<body alink="red" link="yellowgreen" vlink="purple"> <!-- represente le corps du document -->
+    <h1>Ceci est un titre</h1> <!-- h1 est un titre (h2 h3 h4 h5 h6) -->
+    <p>Bonjour le monde</p> <!-- c'est un paragraphe -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo amet consectetur quos quas facere quia excepturi ab sed aperiam veniam illum voluptatum facilis ut cumque sequi vel, nisi assumenda quasi.</p>
+    <h2>Titre 2</h2>
+    <h3>Titre 3</h3>
+    <h4>Titre 4</h4>
+    <h5>Titre 5</h5>
+    <h6>Titre 6</h6>
+    <!-- <br> ou </br> ou <br/> c'est saut de ligne -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Omnis eaque laudantium eius delectus eum, reiciendis cumque beatae quibusdam officia rem voluptate, adipisci asperiores, enim harum aperiam quia.<br> Nam, accusamus adipisci.</p>
+    <!-- <hr> ou </hr> ou <hr/> c'est ligne horizontale -->
+    <hr>
+    <center> <!-- centre le texte -->
+        <p id="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam tempore <i>accusantium</i> nam quos sed quia, eius quo officia atque fuga eum quaerat molestias ullam enim doloribus, reiciendis dolor doloremque!</p>
+    </center>
+
+    <pre> <!-- conserve la mise en forme -->
+        funtion test(args){
+            alert("test");
+        }
+    </pre>
+
+    <!-- <i> permet de mettre le texte en italique -->
+    <i>Je suis en italique</i>
+    <!-- <u> permet de souligner un texte -->
+    <u>souligné</u>
+    <!-- <b> permet de mettre le texte en gras -->
+    <b>gras</b>
+    <!-- <del> qui barre le texte -->
+    <del>Texte barré</del>
+    <!-- <mark> qui permet surligner -->
+    <mark>surligne le texte</mark>
+    <!-- <sup> affiche le texte en exposant -->
+    <sup>exposant</sup>
+    <!-- <sub> adffiche le texte en dessous -->
+    <sub>dessous</sub>
+    <!-- <ins> permet de sopuligner un texte -->
+    <ins>insérer</ins>
+    <!-- <big> permet de grandir le texte -->
+    <big>plus gros</big>
+    <!-- <small> permet de réduire le texte -->
+    <small>réduit</small>
+    <!-- <abbr> abréviation de mot -->
+    <abbr title="HyperTexte Markup Language">HTML</abbr>
+    <!-- <blockquote> citer un texte -->
+    <blockquote>C'est la rentrée</blockquote>
+    <!-- <code> cite un code -->
+        <code>
+            funtion test(){
+                alert('test');
+            }
+        </code>
+
+    <!-- mise en forme du texte -->
+    <p align="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <p align="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <p align="right">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+    <!-- Attributs de base -->
+    <!-- id -->
+    <p id="id1">j'ai un id</p>
+    <p id="id2">j'ai un id</p>
+    <!-- title -->
+    <h3 title="h3">je suis un h3</h3>
+    <!-- style -->
+    <p style="font-family: 'Trebuchet MS'; color:#FF0000;">Je suis en rouge</p>
+
+    <div id="menu" align="center" style="font-family:'Trebuchet MS'; color:yellowgreen; border: 1px solid black;">
+        <a href="" target="_top">Haut de page</a>
+        <a href="" target="_blank">Nouvelle page</a>
+        <a href="#lorem" target="">Lorem</a>
+    </div>
+    <br>
+    <!-- ajouter une image -->
+    <img src="edgerunner.jpg" alt="Edgerunner" width="200" height="" style="display: block; margin-left:auto;margin-right:auto; border: 3px solid black"/>
+    <br>
+    <!-- <img src="https://img.wattpad.com/cover/323063127-288-k431180.jpg" alt="Edgerunner"/> -->
+
+    <!-- Les tableaux en HTML -->
+    <table border="1" cellpadding="5" cellspacing="" bordercolor="blue" bgcolor="yellowgreen">
+        <tr>
+            <th>Column</th>
+            <th>Titre</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Ligne 1 colonne 1</td>
+            <td>Edgerunner</td>
+            <td>Cyberpunk 2077</td>
+        </tr>
+        <tr>
+            <td>Blade runner 2099</td>
+            <td>Film SF futuriste</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+        </tr>
+    </table>
+
+    <!-- Les Listes  (ul type: square, disc, circle | ol type: 1, I, i, A, a)-->
+    <ul type="circle">
+        <ol type="I" start="5">
+            <li>Beetroot</li>
+            <li>Ginger</li>
+            <li>Potato</li>
+            <li>Radish</li>
+            <li>Fluxton</li>
+        </ol>
+    </ul>
+
+    <!-- Image clicable -->
+    <a href="" target="_top">
+        <img src="cyberpunk.png" loading="lazy" alt="Cyberpunk" width="200"/>
+    </a>
+    <br>
+    <!-- IFrame -->
+    <iframe src="http://www.g4.fr" width="100%" height="400" style="border: 0px; overflow: hidden;"></iframe>
+    <br>
+    <!-- Les blocks -->
+    <div style="color:red">
+        <h4>Test des blocks</h4>
+        <p>Retour sur nos éléments</p>
+        <ul>
+            <li>DOCTYPE</li>
+            <li>HTML</li>
+            <li>HEAD</li>
+            <li>BODY</li>
+        </ul>
+    </div>
+    <div style="color:green">
+        <h4>Test des blocks</h4>
+        <p>Retour sur nos éléments</p>
+        <ul>
+            <li>DOCTYPE</li>
+            <li>HTML</li>
+            <li>HEAD</li>
+            <li>BODY</li>
+        </ul>
+    </div>
+</body>
+</html>
